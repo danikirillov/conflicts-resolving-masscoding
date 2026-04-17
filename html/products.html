@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Pet Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>🐾 Pet Shop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="checkout.html">Cart</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="cart-icon">
+                <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="products-container">
+            <aside class="filters-sidebar">
+                <h3>Filters</h3>
+                
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <label><input type="checkbox" name="category" value="dogs"> Dogs</label>
+                    <label><input type="checkbox" name="category" value="cats"> Cats</label>
+                    <label><input type="checkbox" name="category" value="birds"> Birds</label>
+                    <label><input type="checkbox" name="category" value="fish"> Fish</label>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <input type="range" min="0" max="1000" value="500" id="price-range">
+                    <span id="price-value">$0 - $500</span>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Age</h4>
+                    <select id="age-filter">
+                        <option value="all">All Ages</option>
+                        <option value="young">Young (0-1 years)</option>
+                        <option value="adult">Adult (1-7 years)</option>
+                        <option value="senior">Senior (7+ years)</option>
+                    </select>
+                </div>
+
+                <button class="btn-secondary" onclick="applyFilters()">Apply Filters</button>
+                <button class="btn-link" onclick="resetFilters()">Reset</button>
+            </aside>
+
+            <section class="products-main">
+                <div class="products-header">
+                    <h2>All Products</h2>
+                    <div class="sort-options">
+                        <label>Sort by:</label>
+                        <select id="sort-select">
+                            <option value="name">Name</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="newest">Newest</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="product-grid" id="product-grid">
+                    <!-- Products will be loaded dynamically -->
+                    <div class="product-card">
+                        <img src="images/golden-retriever.jpg" alt="Golden Retriever">
+                        <h3>Golden Retriever Puppy</h3>
+                        <p class="breed">Golden Retriever</p>
+                        <p class="age">Age: 3 months</p>
+                        <p class="price">$800</p>
+                        <button class="btn-primary" onclick="addToCart(1)">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/persian-cat.jpg" alt="Persian Cat">
+                        <h3>Persian Cat</h3>
+                        <p class="breed">Persian</p>
+                        <p class="age">Age: 6 months</p>
+                        <p class="price">$600</p>
+                        <button class="btn-primary" onclick="addToCart(2)">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/parrot.jpg" alt="Parrot">
+                        <h3>Colorful Parrot</h3>
+                        <p class="breed">African Grey</p>
+                        <p class="age">Age: 1 year</p>
+                        <p class="price">$1200</p>
+                        <button class="btn-primary" onclick="addToCart(3)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="btn-page" id="prev-page">Previous</button>
+                    <span id="page-info">Page 1 of 5</span>
+                    <button class="btn-page" id="next-page">Next</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted pet companion since 2020</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@petshop.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Pet Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+</body>
+</html>
