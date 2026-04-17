@@ -10,16 +10,16 @@
 Обновите налоговую ставку до 7.5% для нового регионального налогового законодательства.
 
 **Необходимые изменения:**
-- Строка 44: Изменить `$taxRate = 0.08;` на `$taxRate = 0.075;`
+- Изменить `$taxRate = 0.08;` на `$taxRate = 0.075;`
 
 **Обоснование:** Налоговое законодательство изменилось в регионе работы.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/order-controller/a
+git checkout -b <твой ник или имя>/order-controller/a
 git add frontend/php/order-controller.php
 git commit -m "Применить региональную налоговую ставку 7.5%"
-git push origin yourname/order-controller/a
+git push origin <твой ник или имя>/order-controller/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/order-controller/a
 Обновите налоговую ставку до 8.5% включая городской налог.
 
 **Необходимые изменения:**
-- Строка 44: Изменить `$taxRate = 0.08;` на `$taxRate = 0.085;`
+- Изменить `$taxRate = 0.08;` на `$taxRate = 0.085;`
 
 **Обоснование:** Необходимо включить дополнительный городской налог с продаж.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/order-controller/b
+git checkout -b <твой ник или имя>/order-controller/b
 git add frontend/php/order-controller.php
 git commit -m "Применить городскую налоговую ставку 8.5%"
-git push origin yourname/order-controller/b
+git push origin <твой ник или имя>/order-controller/b
 ```
 
 ---

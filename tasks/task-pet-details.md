@@ -10,7 +10,7 @@
 Добавьте информацию о весе в список характеристик питомца.
 
 **Необходимые изменения:**
-- После строки 38 (после характеристики Color), добавить:
+- после характеристики Color), добавить:
 ```javascript
                         <li>Вес: ${this.pet.weight} фунтов</li>
 ```
@@ -19,11 +19,11 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/pet-details/a
+git checkout -b <твой ник или имя>/pet-details/a
 # Внесите изменения
 git add frontend/javascript/pet-details.js
 git commit -m "Добавить информацию о весе питомца"
-git push origin yourname/pet-details/a
+git push origin <твой ник или имя>/pet-details/a
 ```
 
 ---
@@ -34,7 +34,7 @@ git push origin yourname/pet-details/a
 Добавьте ID регистрации породы в список характеристик.
 
 **Необходимые изменения:**
-- После строки 38 (после характеристики Color), добавить:
+- после характеристики Color), добавить:
 ```javascript
                         <li>ID регистрации: ${this.pet.registryId}</li>
 ```
@@ -43,11 +43,11 @@ git push origin yourname/pet-details/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/pet-details/b
+git checkout -b <твой ник или имя>/pet-details/b
 # Внесите изменения
 git add frontend/javascript/pet-details.js
 git commit -m "Добавить ID регистрации породы"
-git push origin yourname/pet-details/b
+git push origin <твой ник или имя>/pet-details/b
 ```
 
 ---

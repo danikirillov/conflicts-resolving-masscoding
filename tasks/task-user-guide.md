@@ -7,19 +7,19 @@
 ### Задание A: Обновить часы работы поддержки
 **Расчетное время:** 5 минут
 
-Расширьте часы работы поддержки в живом чате.
+Расширьте часы работы поддержки в  чате.
 
 **Необходимые изменения:**
-- Строка 158: Изменить `- **Live Chat**: Available 9 AM - 9 PM` на `- **Live Chat**: Available 8 AM - 10 PM`
+- Изменить `- **Live Chat**: Available 9 AM - 9 PM` на `- **Live Chat**: Available 8 AM - 10 PM`
 
 **Обоснование:** Расширенные часы работы поддержки для лучшего обслуживания клиентов.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/user-guide/a
+git checkout -b <твой ник или имя>/user-guide/a
 git add docs/user-guide.md
 git commit -m "Расширить часы работы поддержки"
-git push origin yourname/user-guide/a
+git push origin <твой ник или имя>/user-guide/a
 ```
 
 ---
@@ -27,19 +27,19 @@ git push origin yourname/user-guide/a
 ### Задание B: Обновить часы работы поддержки на 24/7
 **Расчетное время:** 5 минут
 
-Объявите о круглосуточной поддержке в живом чате.
+Объявите о круглосуточной поддержке в  чате.
 
 **Необходимые изменения:**
-- Строка 158: Изменить `- **Live Chat**: Available 9 AM - 9 PM` на `- **Live Chat**: Available 24/7`
+- Изменить `- **Live Chat**: Available 9 AM - 9 PM` на `- **Live Chat**: Available 24/7`
 
 **Обоснование:** Запущена круглосуточная поддержка клиентов.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/user-guide/b
+git checkout -b <твой ник или имя>/user-guide/b
 git add docs/user-guide.md
 git commit -m "Обновить на круглосуточную поддержку"
-git push origin yourname/user-guide/b
+git push origin <твой ник или имя>/user-guide/b
 ```
 
 ---

@@ -10,7 +10,7 @@
 Добавьте Python в список предварительных требований для бэкенд-сервисов.
 
 **Необходимые изменения:**
-- После строки 9 (после строки Docker), добавить:
+- после строки Docker), добавить:
 ```markdown
 - Python (v3.10 или выше)
 ```
@@ -19,10 +19,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/getting-started/a
+git checkout -b <твой ник или имя>/getting-started/a
 git add docs/getting-started.md
 git commit -m "Добавить требование Python"
-git push origin yourname/getting-started/a
+git push origin <твой ник или имя>/getting-started/a
 ```
 
 ---
@@ -33,7 +33,7 @@ git push origin yourname/getting-started/a
 Добавьте Java в список предварительных требований для бэкенд-сервисов.
 
 **Необходимые изменения:**
-- После строки 9 (после строки Docker), добавить:
+- после строки Docker), добавить:
 ```markdown
 - Java JDK (v17 или выше)
 ```
@@ -42,10 +42,10 @@ git push origin yourname/getting-started/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/getting-started/b
+git checkout -b <твой ник или имя>/getting-started/b
 git add docs/getting-started.md
 git commit -m "Добавить требование Java"
-git push origin yourname/getting-started/b
+git push origin <твой ник или имя>/getting-started/b
 ```
 
 ---

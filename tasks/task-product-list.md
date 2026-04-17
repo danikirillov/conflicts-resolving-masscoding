@@ -10,14 +10,14 @@
 Измените количество товаров, отображаемых на странице, с 12 до 16.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `this.itemsPerPage = 12;` на `this.itemsPerPage = 16;`
+-  Изменить `this.itemsPerPage = 12;` на `this.itemsPerPage = 16;`
 
 **Обоснование:** Маркетинговая команда просит показывать больше товаров на странице, чтобы уменьшить прокрутку.
 
 **Инструкции по выполнению:**
 ```bash
-# Создайте новую ветку (замените 'yourname' на ваш никнейм)
-git checkout -b yourname/product-list/a
+# Создайте новую ветку (замените '<твой ник или имя>' на ваш никнейм)
+git checkout -b <твой ник или имя>/product-list/a
 
 # Внесите изменения в файл
 # Сохраните и закоммитьте
@@ -25,7 +25,7 @@ git add frontend/javascript/product-list.js
 git commit -m "Изменить количество товаров на странице до 16"
 
 # Запушьте ветку
-git push origin yourname/product-list/a
+git push origin <твой ник или имя>/product-list/a
 ```
 
 ---
@@ -36,14 +36,14 @@ git push origin yourname/product-list/a
 Измените количество товаров, отображаемых на странице, с 12 до 20.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `this.itemsPerPage = 12;` на `this.itemsPerPage = 20;`
+-  Изменить `this.itemsPerPage = 12;` на `this.itemsPerPage = 20;`
 
 **Обоснование:** Команда продукта хочет соответствовать конкурентам (20 товаров на странице).
 
 **Инструкции по выполнению:**
 ```bash
-# Создайте новую ветку (замените 'yourname' на ваш никнейм)
-git checkout -b yourname/product-list/b
+# Создайте новую ветку (замените '<твой ник или имя>' на ваш никнейм)
+git checkout -b <твой ник или имя>/product-list/b
 
 # Внесите изменения в файл
 # Сохраните и закоммитьте
@@ -51,7 +51,7 @@ git add frontend/javascript/product-list.js
 git commit -m "Изменить количество товаров на странице до 20"
 
 # Запушьте ветку
-git push origin yourname/product-list/b
+git push origin <твой ник или имя>/product-list/b
 ```
 
 ---

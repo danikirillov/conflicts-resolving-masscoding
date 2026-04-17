@@ -10,16 +10,16 @@
 Уменьшите количество реплик до 2 для экономии средств.
 
 **Необходимые изменения:**
-- Строка 14: Изменить `replicas: 3` на `replicas: 2`
+- Изменить `replicas: 3` на `replicas: 2`
 
 **Обоснование:** Снизить расходы на инфраструктуру в период низкого трафика.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/kubernetes-deployment/a
+git checkout -b <твой ник или имя>/kubernetes-deployment/a
 git add devops/kubernetes-deployment.yaml
 git commit -m "Уменьшить количество реплик до 2"
-git push origin yourname/kubernetes-deployment/a
+git push origin <твой ник или имя>/kubernetes-deployment/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/kubernetes-deployment/a
 Увеличьте количество реплик до 5 для лучшей доступности.
 
 **Необходимые изменения:**
-- Строка 14: Изменить `replicas: 3` на `replicas: 5`
+- Изменить `replicas: 3` на `replicas: 5`
 
 **Обоснование:** Обработать увеличенный трафик от маркетинговой кампании.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/kubernetes-deployment/b
+git checkout -b <твой ник или имя>/kubernetes-deployment/b
 git add devops/kubernetes-deployment.yaml
 git commit -m "Увеличить количество реплик до 5"
-git push origin yourname/kubernetes-deployment/b
+git push origin <твой ник или имя>/kubernetes-deployment/b
 ```
 
 ---

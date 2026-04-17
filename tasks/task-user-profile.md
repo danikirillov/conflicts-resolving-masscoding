@@ -10,7 +10,7 @@
 Добавьте чекбокс для настройки push-уведомлений.
 
 **Необходимые изменения:**
-- После строки 50 (после чекбокса SMS-уведомлений), добавить:
+- после чекбокса SMS-уведомлений), добавить:
 ```javascript
                 <label>
                     <input type="checkbox" id="pushNotifications"> 
@@ -22,11 +22,11 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/user-profile/a
+git checkout -b <твой ник или имя>/user-profile/a
 # Внесите изменения
 git add frontend/javascript/user-profile.js
 git commit -m "Добавить настройку push-уведомлений"
-git push origin yourname/user-profile/a
+git push origin <твой ник или имя>/user-profile/a
 ```
 
 ---
@@ -37,7 +37,7 @@ git push origin yourname/user-profile/a
 Добавьте чекбокс для подписки на рассылку.
 
 **Необходимые изменения:**
-- После строки 50 (после чекбокса SMS-уведомлений), добавить:
+- после чекбокса SMS-уведомлений), добавить:
 ```javascript
                 <label>
                     <input type="checkbox" id="newsletter"> 
@@ -49,11 +49,11 @@ git push origin yourname/user-profile/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/user-profile/b
+git checkout -b <твой ник или имя>/user-profile/b
 # Внесите изменения
 git add frontend/javascript/user-profile.js
 git commit -m "Добавить подписку на рассылку"
-git push origin yourname/user-profile/b
+git push origin <твой ник или имя>/user-profile/b
 ```
 
 ---

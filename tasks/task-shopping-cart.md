@@ -10,17 +10,17 @@
 Обновите налоговую ставку, чтобы отразить правильный налог с продаж штата 7%.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `this.taxRate = 0.08;` на `this.taxRate = 0.07;`
+- Изменить `this.taxRate = 0.08;` на `this.taxRate = 0.07;`
 
 **Обоснование:** Исправление бухгалтерского отдела - стандартная ставка должна быть 7%, а не 8%.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/shopping-cart/a
+git checkout -b <твой ник или имя>/shopping-cart/a
 # Внесите изменения
 git add frontend/javascript/shopping-cart.js
 git commit -m "Обновить налоговую ставку до 7%"
-git push origin yourname/shopping-cart/a
+git push origin <твой ник или имя>/shopping-cart/a
 ```
 
 ---
@@ -31,17 +31,17 @@ git push origin yourname/shopping-cart/a
 Обновите налоговую ставку до 9% для нового распределительного центра.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `this.taxRate = 0.08;` на `this.taxRate = 0.09;`
+- Изменить `this.taxRate = 0.08;` на `this.taxRate = 0.09;`
 
 **Обоснование:** Компания переехала в новый штат с налогом с продаж 9%.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/shopping-cart/b
+git checkout -b <твой ник или имя>/shopping-cart/b
 # Внесите изменения
 git add frontend/javascript/shopping-cart.js
 git commit -m "Обновить налоговую ставку до 9%"
-git push origin yourname/shopping-cart/b
+git push origin <твой ник или имя>/shopping-cart/b
 ```
 
 ---

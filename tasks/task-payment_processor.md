@@ -10,16 +10,16 @@
 Снизьте комиссию за обработку до 2.5% после переговоров с платежным провайдером.
 
 **Необходимые изменения:**
-- Строка 15: Изменить `processingFee = 0.029;` на `processingFee = 0.025;`
+- Изменить `processingFee = 0.029;` на `processingFee = 0.025;`
 
 **Обоснование:** Договорились о более выгодных ставках с платежным процессором.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/payment_processor/a
+git checkout -b <твой ник или имя>/payment_processor/a
 git add backend/cpp/payment_processor.cpp
 git commit -m "Снизить комиссию за обработку до 2.5%"
-git push origin yourname/payment_processor/a
+git push origin <твой ник или имя>/payment_processor/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/payment_processor/a
 Повысьте комиссию за обработку до 3.2% для покрытия возросших расходов.
 
 **Необходимые изменения:**
-- Строка 15: Изменить `processingFee = 0.029;` на `processingFee = 0.032;`
+- Изменить `processingFee = 0.029;` на `processingFee = 0.032;`
 
 **Обоснование:** Платежный процессор увеличил свои комиссии.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/payment_processor/b
+git checkout -b <твой ник или имя>/payment_processor/b
 git add backend/cpp/payment_processor.cpp
 git commit -m "Увеличить комиссию за обработку до 3.2%"
-git push origin yourname/payment_processor/b
+git push origin <твой ник или имя>/payment_processor/b
 ```
 
 ---

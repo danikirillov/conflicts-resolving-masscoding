@@ -10,16 +10,16 @@
 Уменьшите интервал сбора метрик для более детальных показателей.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `"scrape_interval": "15s"` на `"scrape_interval": "10s"`
+- Изменить `"scrape_interval": "15s"` на `"scrape_interval": "10s"`
 
 **Обоснование:** Необходимы метрики с более высоким разрешением для отладки.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/monitoring-config/a
+git checkout -b <твой ник или имя>/monitoring-config/a
 git add devops/monitoring-config.json
 git commit -m "Уменьшить интервал сбора метрик до 10s"
-git push origin yourname/monitoring-config/a
+git push origin <твой ник или имя>/monitoring-config/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/monitoring-config/a
 Увеличьте интервал сбора метрик для снижения нагрузки на мониторинг.
 
 **Необходимые изменения:**
-- Строка 6: Изменить `"scrape_interval": "15s"` на `"scrape_interval": "30s"`
+- Изменить `"scrape_interval": "15s"` на `"scrape_interval": "30s"`
 
 **Обоснование:** Снизить потребление ресурсов Prometheus.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/monitoring-config/b
+git checkout -b <твой ник или имя>/monitoring-config/b
 git add devops/monitoring-config.json
 git commit -m "Увеличить интервал сбора метрик до 30s"
-git push origin yourname/monitoring-config/b
+git push origin <твой ник или имя>/monitoring-config/b
 ```
 
 ---

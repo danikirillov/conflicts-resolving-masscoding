@@ -10,7 +10,7 @@
 Добавьте валидацию для проверки бизнес-доменов email.
 
 **Необходимые изменения:**
-- После строки 29 (после проверки существования email), добавить:
+- после проверки существования email), добавить:
 ```java
         // Валидация домена email
         if (email.endsWith("@tempmail.com") || email.endsWith("@disposable.com")) {
@@ -22,10 +22,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/UserService/a
+git checkout -b <твой ник или имя>/UserService/a
 git add backend/java/UserService.java
 git commit -m "Добавить валидацию домена email"
-git push origin yourname/UserService/a
+git push origin <твой ник или имя>/UserService/a
 ```
 
 ---
@@ -36,7 +36,7 @@ git push origin yourname/UserService/a
 Добавьте валидацию для требований к сложности пароля.
 
 **Необходимые изменения:**
-- После строки 29 (после проверки существования email), добавить:
+- после проверки существования email), добавить:
 ```java
         // Валидация силы пароля
         if (!password.matches(".*[A-Z].*") || !password.matches(".*[0-9].*")) {
@@ -48,10 +48,10 @@ git push origin yourname/UserService/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/UserService/b
+git checkout -b <твой ник или имя>/UserService/b
 git add backend/java/UserService.java
 git commit -m "Добавить валидацию силы пароля"
-git push origin yourname/UserService/b
+git push origin <твой ник или имя>/UserService/b
 ```
 
 ---

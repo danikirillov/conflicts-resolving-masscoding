@@ -10,16 +10,16 @@
 Обновите порт по умолчанию для базы данных MySQL.
 
 **Необходимые изменения:**
-- Строка 23: Изменить `port = 5432;` на `port = 3306;`
+- Изменить `port = 5432;` на `port = 3306;`
 
 **Обоснование:** Миграция с PostgreSQL на MySQL.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/database_connector/a
+git checkout -b <твой ник или имя>/database_connector/a
 git add backend/cpp/database_connector.cpp
 git commit -m "Изменить на порт MySQL"
-git push origin yourname/database_connector/a
+git push origin <твой ник или имя>/database_connector/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/database_connector/a
 Обновите порт для нестандартной конфигурации PostgreSQL.
 
 **Необходимые изменения:**
-- Строка 23: Изменить `port = 5432;` на `port = 5433;`
+- Изменить `port = 5432;` на `port = 5433;`
 
 **Обоснование:** Запуск PostgreSQL на нестандартном порту для безопасности.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/database_connector/b
+git checkout -b <твой ник или имя>/database_connector/b
 git add backend/cpp/database_connector.cpp
 git commit -m "Изменить на нестандартный порт PostgreSQL"
-git push origin yourname/database_connector/b
+git push origin <твой ник или имя>/database_connector/b
 ```
 
 ---

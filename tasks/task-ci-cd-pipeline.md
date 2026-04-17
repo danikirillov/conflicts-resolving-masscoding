@@ -10,16 +10,16 @@
 Обновите до последней LTS версии Node.js.
 
 **Необходимые изменения:**
-- Строка 10: Изменить `NODE_VERSION: '18.x'` на `NODE_VERSION: '20.x'`
+- Изменить `NODE_VERSION: '18.x'` на `NODE_VERSION: '20.x'`
 
 **Обоснование:** Использовать последнюю LTS для лучшей производительности и безопасности.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/ci-cd-pipeline/a
+git checkout -b <твой ник или имя>/ci-cd-pipeline/a
 git add devops/ci-cd-pipeline.yml
 git commit -m "Обновить до Node 20"
-git push origin yourname/ci-cd-pipeline/a
+git push origin <твой ник или имя>/ci-cd-pipeline/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/ci-cd-pipeline/a
 Зафиксируйте конкретную минорную версию Node 18 для стабильности.
 
 **Необходимые изменения:**
-- Строка 10: Изменить `NODE_VERSION: '18.x'` на `NODE_VERSION: '18.20.0'`
+- Изменить `NODE_VERSION: '18.x'` на `NODE_VERSION: '18.20.0'`
 
 **Обоснование:** Закрепить на протестированной версии для предотвращения критических изменений.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/ci-cd-pipeline/b
+git checkout -b <твой ник или имя>/ci-cd-pipeline/b
 git add devops/ci-cd-pipeline.yml
 git commit -m "Зафиксировать версию Node 18.20"
-git push origin yourname/ci-cd-pipeline/b
+git push origin <твой ник или имя>/ci-cd-pipeline/b
 ```
 
 ---

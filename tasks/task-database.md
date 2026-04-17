@@ -10,16 +10,16 @@
 Обновите имя базы данных по умолчанию для новой установки PostgreSQL.
 
 **Необходимые изменения:**
-- Строка 7: Изменить `private $dbname = 'petshop';` на `private $dbname = 'petshop_v2';`
+- Изменить `private $dbname = 'petshop';` на `private $dbname = 'petshop_v2';`
 
 **Обоснование:** Миграция на новый экземпляр базы данных с обновленным соглашением об именовании.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/database/a
+git checkout -b <твой ник или имя>/database/a
 git add frontend/php/database.php
 git commit -m "Обновить имя БД на petshop_v2"
-git push origin yourname/database/a
+git push origin <твой ник или имя>/database/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/database/a
 Обновите имя базы данных для production окружения.
 
 **Необходимые изменения:**
-- Строка 7: Изменить `private $dbname = 'petshop';` на `private $dbname = 'petshop_prod';`
+- Изменить `private $dbname = 'petshop';` на `private $dbname = 'petshop_prod';`
 
 **Обоснование:** Отдельная production база данных с явным именованием.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/database/b
+git checkout -b <твой ник или имя>/database/b
 git add frontend/php/database.php
 git commit -m "Обновить имя БД на petshop_prod"
-git push origin yourname/database/b
+git push origin <твой ник или имя>/database/b
 ```
 
 ---

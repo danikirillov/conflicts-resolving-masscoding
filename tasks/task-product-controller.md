@@ -10,16 +10,16 @@
 Измените сортировку товаров по умолчанию с имени на цену (по возрастанию).
 
 **Необходимые изменения:**
-- Строка 36: Изменить `$sql .= " ORDER BY name ASC";` на `$sql .= " ORDER BY price ASC";`
+- Изменить `$sql .= " ORDER BY name ASC";` на `$sql .= " ORDER BY price ASC";`
 
 **Обоснование:** Показывать доступные варианты первыми для увеличения конверсии.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/product-controller/a
+git checkout -b <твой ник или имя>/product-controller/a
 git add frontend/php/product-controller.php
 git commit -m "Сортировать товары по цене по умолчанию"
-git push origin yourname/product-controller/a
+git push origin <твой ник или имя>/product-controller/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/product-controller/a
 Измените сортировку товаров по умолчанию на показ новейших товаров первыми.
 
 **Необходимые изменения:**
-- Строка 36: Изменить `$sql .= " ORDER BY name ASC";` на `$sql .= " ORDER BY created_at DESC";`
+- Изменить `$sql .= " ORDER BY name ASC";` на `$sql .= " ORDER BY created_at DESC";`
 
 **Обоснование:** Продвигать новый инвентарь для улучшения оборачиваемости.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/product-controller/b
+git checkout -b <твой ник или имя>/product-controller/b
 git add frontend/php/product-controller.php
 git commit -m "Сортировать товары по дате добавления"
-git push origin yourname/product-controller/b
+git push origin <твой ник или имя>/product-controller/b
 ```
 
 ---

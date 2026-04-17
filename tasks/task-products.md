@@ -10,7 +10,7 @@
 Добавьте рептилий в качестве опции фильтра в секции категорий.
 
 **Необходимые изменения:**
-- После строки 43 (после чекбокса Fish), добавить:
+- после чекбокса Fish), добавить:
 ```html
                     <label><input type="checkbox" name="category" value="reptiles"> Рептилии</label>
 ```
@@ -19,10 +19,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/products/a
+git checkout -b <твой ник или имя>/products/a
 git add html/products.html
 git commit -m "Добавить фильтр категории рептилий"
-git push origin yourname/products/a
+git push origin <твой ник или имя>/products/a
 ```
 
 ---
@@ -33,7 +33,7 @@ git push origin yourname/products/a
 Добавьте мелких животных (хомяки, морские свинки) в качестве опции фильтра.
 
 **Необходимые изменения:**
-- После строки 43 (после чекбокса Fish), добавить:
+- после чекбокса Fish), добавить:
 ```html
                     <label><input type="checkbox" name="category" value="small-animals"> Мелкие животные</label>
 ```
@@ -42,10 +42,10 @@ git push origin yourname/products/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/products/b
+git checkout -b <твой ник или имя>/products/b
 git add html/products.html
 git commit -m "Добавить фильтр категории мелких животных"
-git push origin yourname/products/b
+git push origin <твой ник или имя>/products/b
 ```
 
 ---

@@ -1,45 +1,45 @@
-# Задание: Порог низкого запаса в сервисе инвентаря
+# Задание: нижний порог запаса товаров в сервисе инвентаря
 
 **Файл:** `backend/java/InventoryService.java`
 
 ## Тип конфликта: Выбрать одно значение
 
-### Задание A: Уменьшить порог низкого запаса
+### Задание A: Уменьшить нижний порог запаса товаров
 **Расчетное время:** 5 минут
 
-Снизьте порог низкого запаса для уменьшения усталости от оповещений.
+Снизьте нижний порог запаса товаров для уменьшения усталости от оповещений. (lowStockThreshold)
 
 **Необходимые изменения:**
-- Строка 17: Изменить `this.lowStockThreshold = 10;` на `this.lowStockThreshold = 5;`
+- Изменить `this.lowStockThreshold = 10;` на `this.lowStockThreshold = 5;`
 
-**Обоснование:** Слишком много ложных тревог с текущим порогом.
+**Обоснование:** Слишком много ложных оповещений с текущим порогом.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/InventoryService/a
+git checkout -b <твой ник или имя>/InventoryService/a
 git add backend/java/InventoryService.java
-git commit -m "Уменьшить порог низкого запаса до 5"
-git push origin yourname/InventoryService/a
+git commit -m "Уменьшить нижний порог запаса товаров до 5"
+git push origin <твой ник или имя>/InventoryService/a
 ```
 
 ---
 
-### Задание B: Увеличить порог низкого запаса
+### Задание B: Увеличить нижний порог запаса товаров
 **Расчетное время:** 5 минут
 
-Повысьте порог низкого запаса для более ранних предупреждений о переупорядочении.
+Повысьте нижний порог запаса товаров для более ранних предупреждений о переупорядочении. (lowStockThreshold)
 
 **Необходимые изменения:**
-- Строка 17: Изменить `this.lowStockThreshold = 10;` на `this.lowStockThreshold = 15;`
+- Изменить `this.lowStockThreshold = 10;` на `this.lowStockThreshold = 15;`
 
 **Обоснование:** Необходимо больше времени для переупорядочения популярных товаров.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/InventoryService/b
+git checkout -b <твой ник или имя>/InventoryService/b
 git add backend/java/InventoryService.java
-git commit -m "Увеличить порог низкого запаса до 15"
-git push origin yourname/InventoryService/b
+git commit -m "Увеличить нижний порог запаса товаров до 15"
+git push origin <твой ник или имя>/InventoryService/b
 ```
 
 ---

@@ -10,7 +10,7 @@
 Добавьте конфигурацию тайм-аута подключения к настройкам продакшн базы данных.
 
 **Необходимые изменения:**
-- После строки 73 (после `"pool_size": 50,`), добавить:
+- после `"pool_size": 50,`, добавить:
 ```json
         "connection_timeout": 30000,
 ```
@@ -19,10 +19,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/environment-config/a
+git checkout -b <твой ник или имя>/environment-config/a
 git add devops/environment-config.json
 git commit -m "Добавить настройку тайм-аута подключения"
-git push origin yourname/environment-config/a
+git push origin <твой ник или имя>/environment-config/a
 ```
 
 ---
@@ -33,7 +33,7 @@ git push origin yourname/environment-config/a
 Добавьте конфигурацию тайм-аута запроса к настройкам продакшн базы данных.
 
 **Необходимые изменения:**
-- После строки 73 (после `"pool_size": 50,`), добавить:
+- после `"pool_size": 50,`, добавить:
 ```json
         "query_timeout": 15000,
 ```
@@ -42,10 +42,10 @@ git push origin yourname/environment-config/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/environment-config/b
+git checkout -b <твой ник или имя>/environment-config/b
 git add devops/environment-config.json
 git commit -m "Добавить настройку тайм-аута запроса"
-git push origin yourname/environment-config/b
+git push origin <твой ник или имя>/environment-config/b
 ```
 
 ---

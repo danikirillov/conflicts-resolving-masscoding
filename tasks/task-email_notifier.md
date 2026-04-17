@@ -10,16 +10,16 @@
 Измените SMTP порт на 465 для SSL/TLS соединения.
 
 **Необходимые изменения:**
-- Строка 13: Изменить `self.smtp_port = 587` на `self.smtp_port = 465`
+- Изменить `self.smtp_port = 587` на `self.smtp_port = 465`
 
 **Обоснование:** Использовать SSL порт для лучшей безопасности.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/email_notifier/a
+git checkout -b <твой ник или имя>/email_notifier/a
 git add backend/python/email_notifier.py
 git commit -m "Обновить SMTP порт на 465"
-git push origin yourname/email_notifier/a
+git push origin <твой ник или имя>/email_notifier/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/email_notifier/a
 Измените SMTP порт на 25 для внутреннего почтового сервера.
 
 **Необходимые изменения:**
-- Строка 13: Изменить `self.smtp_port = 587` на `self.smtp_port = 25`
+- Изменить `self.smtp_port = 587` на `self.smtp_port = 25`
 
 **Обоснование:** Внутренний почтовый сервер использует стандартный SMTP порт.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/email_notifier/b
+git checkout -b <твой ник или имя>/email_notifier/b
 git add backend/python/email_notifier.py
 git commit -m "Обновить SMTP порт на 25"
-git push origin yourname/email_notifier/b
+git push origin <твой ник или имя>/email_notifier/b
 ```
 
 ---

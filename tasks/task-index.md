@@ -10,16 +10,16 @@
 Измените заголовок главной секции, чтобы подчеркнуть усыновление вместо продаж.
 
 **Необходимые изменения:**
-- Строка 31: Изменить `<h2>Find Your Perfect Pet</h2>` на `<h2>Adopt Your New Best Friend</h2>`
+- Изменить `<h2>Find Your Perfect Pet</h2>` на `<h2>Adopt Your New Best Friend</h2>`
 
 **Обоснование:** Маркетинг хочет подчеркнуть тему усыновления питомцев.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/index/a
+git checkout -b <твой ник или имя>/index/a
 git add html/index.html
 git commit -m "Обновить заголовок для акцента на усыновлении"
-git push origin yourname/index/a
+git push origin <твой ник или имя>/index/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/index/a
 Измените заголовок главной секции для продвижения специального предложения.
 
 **Необходимые изменения:**
-- Строка 31: Изменить `<h2>Find Your Perfect Pet</h2>` на `<h2>Find Your Perfect Pet - 20% Off This Week!</h2>`
+- Изменить `<h2>Find Your Perfect Pet</h2>` на `<h2>Find Your Perfect Pet - 20% Off This Week!</h2>`
 
 **Обоснование:** Продвижение текущей рекламной кампании на главной странице.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/index/b
+git checkout -b <твой ник или имя>/index/b
 git add html/index.html
 git commit -m "Обновить заголовок для промо-акции"
-git push origin yourname/index/b
+git push origin <твой ник или имя>/index/b
 ```
 
 ---

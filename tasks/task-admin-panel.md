@@ -16,10 +16,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/admin-panel/a
+git checkout -b <твой ник или имя>/admin-panel/a
 git add frontend/php/admin-panel.php
 git commit -m "Понизить порог низкого запаса до 5"
-git push origin yourname/admin-panel/a
+git push origin <твой ник или имя>/admin-panel/a
 ```
 
 ---
@@ -36,10 +36,10 @@ git push origin yourname/admin-panel/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/admin-panel/b
+git checkout -b <твой ник или имя>/admin-panel/b
 git add frontend/php/admin-panel.php
 git commit -m "Повысить порог низкого запаса до 15"
-git push origin yourname/admin-panel/b
+git push origin <твой ник или имя>/admin-panel/b
 ```
 
 ---

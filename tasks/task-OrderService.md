@@ -10,16 +10,16 @@
 Снизьте стоимость доставки до $7.99 для повышения конкурентоспособности.
 
 **Необходимые изменения:**
-- Строка 19: Изменить `this.shippingCost = 10.0;` на `this.shippingCost = 7.99;`
+- Изменить `this.shippingCost = 10.0;` на `this.shippingCost = 7.99;`
 
 **Обоснование:** Маркетинговые исследования показывают, что конкуренты берут меньше за доставку.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/OrderService/a
+git checkout -b <твой ник или имя>/OrderService/a
 git add backend/java/OrderService.java
 git commit -m "Снизить стоимость доставки до $7.99"
-git push origin yourname/OrderService/a
+git push origin <твой ник или имя>/OrderService/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/OrderService/a
 Увеличьте стоимость доставки до $12.99 из-за повышения тарифов перевозчика.
 
 **Необходимые изменения:**
-- Строка 19: Изменить `this.shippingCost = 10.0;` на `this.shippingCost = 12.99;`
+- Изменить `this.shippingCost = 10.0;` на `this.shippingCost = 12.99;`
 
 **Обоснование:** Перевозчик повысил тарифы, нужно покрыть расходы.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/OrderService/b
+git checkout -b <твой ник или имя>/OrderService/b
 git add backend/java/OrderService.java
 git commit -m "Увеличить стоимость доставки до $12.99"
-git push origin yourname/OrderService/b
+git push origin <твой ник или имя>/OrderService/b
 ```
 
 ---

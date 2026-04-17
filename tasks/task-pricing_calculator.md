@@ -7,19 +7,19 @@
 ### Задание A: Обновить налоговую ставку до 7%
 **Расчетное время:** 5 минут
 
-Измените налоговую ставку в соответствии с новым налоговым законодательством штата.
+Измените налоговую ставку в соответствии с новым налоговым законодательством.
 
 **Необходимые изменения:**
-- Строка 11: Изменить `self.tax_rate = 0.08` на `self.tax_rate = 0.07`
+-  Изменить `self.tax_rate = 0.08` на `self.tax_rate = 0.07`
 
 **Обоснование:** Штат снизил налоговую ставку с продаж до 7%.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/pricing_calculator/a
+git checkout -b <твой ник или имя>/pricing_calculator/a
 git add backend/python/pricing_calculator.py
 git commit -m "Обновить налоговую ставку до 7%"
-git push origin yourname/pricing_calculator/a
+git push origin <твой ник или имя>/pricing_calculator/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/pricing_calculator/a
 Измените налоговую ставку для включения местных налогов.
 
 **Необходимые изменения:**
-- Строка 11: Изменить `self.tax_rate = 0.08` на `self.tax_rate = 0.085`
+-  Изменить `self.tax_rate = 0.08` на `self.tax_rate = 0.085`
 
 **Обоснование:** Необходимо добавить 0.5% местного налогового сбора.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/pricing_calculator/b
+git checkout -b <твой ник или имя>/pricing_calculator/b
 git add backend/python/pricing_calculator.py
 git commit -m "Обновить налоговую ставку до 8.5%"
-git push origin yourname/pricing_calculator/b
+git push origin <твой ник или имя>/pricing_calculator/b
 ```
 
 ---

@@ -10,16 +10,16 @@
 Увеличьте срок хранения резервных копий для соответствия требованиям.
 
 **Необходимые изменения:**
-- Строка 159: Изменить `3. Backup retention: 30 days` на `3. Backup retention: 60 days`
+- Изменить `3. Backup retention: 30 days` на `3. Backup retention: 60 days`
 
 **Обоснование:** Требования соответствия предписывают хранение в течение 60 дней.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/deployment-guide/a
+git checkout -b <твой ник или имя>/deployment-guide/a
 git add docs/deployment-guide.md
 git commit -m "Обновить срок хранения резервных копий на 60 дней"
-git push origin yourname/deployment-guide/a
+git push origin <твой ник или имя>/deployment-guide/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/deployment-guide/a
 Увеличьте срок хранения резервных копий для потребностей восстановления данных.
 
 **Необходимые изменения:**
-- Строка 159: Изменить `3. Backup retention: 30 days` на `3. Backup retention: 90 days`
+- Изменить `3. Backup retention: 30 days` на `3. Backup retention: 90 days`
 
 **Обоснование:** Управление рисками рекомендует хранение в течение 90 дней.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/deployment-guide/b
+git checkout -b <твой ник или имя>/deployment-guide/b
 git add docs/deployment-guide.md
 git commit -m "Обновить срок хранения резервных копий на 90 дней"
-git push origin yourname/deployment-guide/b
+git push origin <твой ник или имя>/deployment-guide/b
 ```
 
 ---

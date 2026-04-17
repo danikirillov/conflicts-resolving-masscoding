@@ -10,16 +10,16 @@
 Измените отображение стоимости доставки, чтобы показать более низкий порог бесплатной доставки.
 
 **Необходимые изменения:**
-- Строка 84: Изменить `<span id="shipping">$10.00</span>` на `<span id="shipping">Free on orders $75+</span>`
+- Изменить `<span id="shipping">$10.00</span>` на `<span id="shipping">Free on orders $75+</span>`
 
 **Обоснование:** Продвигать бесплатную доставку для увеличения суммы в корзине.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/checkout/a
+git checkout -b <твой ник или имя>/checkout/a
 git add html/checkout.html
 git commit -m "Обновить порог бесплатной доставки"
-git push origin yourname/checkout/a
+git push origin <твой ник или имя>/checkout/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/checkout/a
 Обновите стоимость доставки до новой фиксированной ставки.
 
 **Необходимые изменения:**
-- Строка 84: Изменить `<span id="shipping">$10.00</span>` на `<span id="shipping">$12.99</span>`
+- Изменить `<span id="shipping">$10.00</span>` на `<span id="shipping">$12.99</span>`
 
 **Обоснование:** Повышение тарифов перевозчиком требует обновления цен.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/checkout/b
+git checkout -b <твой ник или имя>/checkout/b
 git add html/checkout.html
 git commit -m "Обновить фиксированную ставку доставки"
-git push origin yourname/checkout/b
+git push origin <твой ник или имя>/checkout/b
 ```
 
 ---

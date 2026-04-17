@@ -10,7 +10,7 @@
 Добавьте метод для фильтрации питомцев по нескольким видам одновременно.
 
 **Необходимые изменения:**
-- После строки 62 (после метода `searchBySpecies`), добавить:
+- после метода `searchBySpecies`), добавить:
 ```java
     /**
      * Фильтр питомцев по нескольким видам
@@ -30,10 +30,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/PetService/a
+git checkout -b <твой ник или имя>/PetService/a
 git add backend/java/PetService.java
 git commit -m "Добавить фильтрацию по нескольким видам"
-git push origin yourname/PetService/a
+git push origin <твой ник или имя>/PetService/a
 ```
 
 ---
@@ -44,7 +44,7 @@ git push origin yourname/PetService/a
 Добавьте метод для фильтрации питомцев по возрастному диапазону.
 
 **Необходимые изменения:**
-- После строки 62 (после метода `searchBySpecies`), добавить:
+- после метода `searchBySpecies`), добавить:
 ```java
     /**
      * Фильтр питомцев по возрастному диапазону
@@ -64,10 +64,10 @@ git push origin yourname/PetService/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/PetService/b
+git checkout -b <твой ник или имя>/PetService/b
 git add backend/java/PetService.java
 git commit -m "Добавить фильтрацию по возрастному диапазону"
-git push origin yourname/PetService/b
+git push origin <твой ник или имя>/PetService/b
 ```
 
 ---

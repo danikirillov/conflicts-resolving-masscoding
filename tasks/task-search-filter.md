@@ -10,17 +10,17 @@
 Измените порядок сортировки по умолчанию, чтобы показывать сначала самых дешевых питомцев.
 
 **Необходимые изменения:**
-- Строка 12: Изменить `this.sortBy = 'name';` на `this.sortBy = 'price_low';`
+- Изменить `this.sortBy = 'name';` на `this.sortBy = 'price_low';`
 
 **Обоснование:** Маркетинговые исследования показывают, что клиенты предпочитают сначала видеть бюджетные варианты.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/search-filter/a
+git checkout -b <твой ник или имя>/search-filter/a
 # Внесите изменения
 git add frontend/javascript/search-filter.js
 git commit -m "Изменить сортировку по умолчанию на цену"
-git push origin yourname/search-filter/a
+git push origin <твой ник или имя>/search-filter/a
 ```
 
 ---
@@ -31,17 +31,17 @@ git push origin yourname/search-filter/a
 Измените порядок сортировки по умолчанию, чтобы показывать сначала новых поступлений.
 
 **Необходимые изменения:**
-- Строка 12: Изменить `this.sortBy = 'name';` на `this.sortBy = 'newest';`
+- Изменить `this.sortBy = 'name';` на `this.sortBy = 'newest';`
 
 **Обоснование:** Показывать новых питомцев для увеличения показателей усыновления новых поступлений.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/search-filter/b
+git checkout -b <твой ник или имя>/search-filter/b
 # Внесите изменения
 git add frontend/javascript/search-filter.js
 git commit -m "Изменить сортировку по умолчанию на новизну"
-git push origin yourname/search-filter/b
+git push origin <твой ник или имя>/search-filter/b
 ```
 
 ---

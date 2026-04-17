@@ -10,7 +10,7 @@
 Добавьте метод для получения трендовых товаров в определенной категории.
 
 **Необходимые изменения:**
-- После строки 102 (после метода `get_trending_products`), добавить:
+- после метода `get_trending_products`), добавить:
 ```python
     def get_trending_by_category(self, category: str, limit: int = 5) -> List[int]:
         """Получить трендовые товары в определенной категории"""
@@ -23,10 +23,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/recommendation_engine/a
+git checkout -b <твой ник или имя>/recommendation_engine/a
 git add backend/python/recommendation_engine.py
 git commit -m "Добавить метод трендовых товаров по категории"
-git push origin yourname/recommendation_engine/a
+git push origin <твой ник или имя>/recommendation_engine/a
 ```
 
 ---
@@ -37,7 +37,7 @@ git push origin yourname/recommendation_engine/a
 Добавьте метод для рекомендации товаров в аналогичном ценовом диапазоне.
 
 **Необходимые изменения:**
-- После строки 102 (после метода `get_trending_products`), добавить:
+- после метода `get_trending_products`), добавить:
 ```python
     def get_price_range_recommendations(self, product_id: int, 
                                        tolerance: float = 0.2, limit: int = 5) -> List[int]:
@@ -50,10 +50,10 @@ git push origin yourname/recommendation_engine/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/recommendation_engine/b
+git checkout -b <твой ник или имя>/recommendation_engine/b
 git add backend/python/recommendation_engine.py
 git commit -m "Добавить рекомендации на основе цены"
-git push origin yourname/recommendation_engine/b
+git push origin <твой ник или имя>/recommendation_engine/b
 ```
 
 ---

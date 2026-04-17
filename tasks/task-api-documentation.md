@@ -10,16 +10,16 @@
 Повысьте лимит частоты API для лучшего опыта разработчиков.
 
 **Необходимые изменения:**
-- Строка 266: Изменить `- 100 requests per minute (authenticated)` на `- 150 requests per minute (authenticated)`
+- Изменить `- 100 requests per minute (authenticated)` на `- 150 requests per minute (authenticated)`
 
 **Обоснование:** Отзывы разработчиков запрашивают более высокие лимиты.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/api-documentation/a
+git checkout -b <твой ник или имя>/api-documentation/a
 git add docs/api-documentation.md
 git commit -m "Увеличить лимит частоты до 150 запросов"
-git push origin yourname/api-documentation/a
+git push origin <твой ник или имя>/api-documentation/a
 ```
 
 ---
@@ -30,16 +30,16 @@ git push origin yourname/api-documentation/a
 Снизьте лимит частоты API для предотвращения злоупотреблений.
 
 **Необходимые изменения:**
-- Строка 266: Изменить `- 100 requests per minute (authenticated)` на `- 60 requests per minute (authenticated)`
+- Изменить `- 100 requests per minute (authenticated)` на `- 60 requests per minute (authenticated)`
 
 **Обоснование:** Предотвратить злоупотребление API и снизить нагрузку на сервер.
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/api-documentation/b
+git checkout -b <твой ник или имя>/api-documentation/b
 git add docs/api-documentation.md
 git commit -m "Снизить лимит частоты до 60 запросов"
-git push origin yourname/api-documentation/b
+git push origin <твой ник или имя>/api-documentation/b
 ```
 
 ---

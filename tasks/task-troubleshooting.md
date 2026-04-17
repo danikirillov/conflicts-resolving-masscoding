@@ -10,7 +10,7 @@
 Добавьте экстренный email-контакт для критических проблем.
 
 **Необходимые изменения:**
-- После строки 363 (после строки Slack), добавить:
+- после строки Slack), добавить:
 ```markdown
 - **Emergency Email**: critical@petshop.com
 ```
@@ -19,10 +19,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/troubleshooting/a
+git checkout -b <твой ник или имя>/troubleshooting/a
 git add docs/troubleshooting.md
 git commit -m "Добавить экстренный email-контакт"
-git push origin yourname/troubleshooting/a
+git push origin <твой ник или имя>/troubleshooting/a
 ```
 
 ---
@@ -33,7 +33,7 @@ git push origin yourname/troubleshooting/a
 Добавьте ссылку на расписание ротации дежурств.
 
 **Необходимые изменения:**
-- После строки 363 (после строки Slack), добавить:
+- после строки Slack), добавить:
 ```markdown
 - **On-Call Schedule**: https://oncall.petshop.com
 ```
@@ -42,10 +42,10 @@ git push origin yourname/troubleshooting/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/troubleshooting/b
+git checkout -b <твой ник или имя>/troubleshooting/b
 git add docs/troubleshooting.md
 git commit -m "Добавить расписание дежурств"
-git push origin yourname/troubleshooting/b
+git push origin <твой ник или имя>/troubleshooting/b
 ```
 
 ---

@@ -16,10 +16,10 @@
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/auth/a
+git checkout -b <твой ник или имя>/auth/a
 git add frontend/php/auth.php
 git commit -m "Увеличить тайм-аут сессии до 2 часов"
-git push origin yourname/auth/a
+git push origin <твой ник или имя>/auth/a
 ```
 
 ---
@@ -36,10 +36,10 @@ git push origin yourname/auth/a
 
 **Инструкции по выполнению:**
 ```bash
-git checkout -b yourname/auth/b
+git checkout -b <твой ник или имя>/auth/b
 git add frontend/php/auth.php
 git commit -m "Уменьшить тайм-аут сессии до 30 минут"
-git push origin yourname/auth/b
+git push origin <твой ник или имя>/auth/b
 ```
 
 ---
