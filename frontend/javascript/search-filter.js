@@ -10,7 +10,7 @@ class SearchFilter {
             species: [],
             age: 'all'
         };
-        this.sortBy = 'name';
+        this.sortBy = 'newest';
     }
 
     applyFilters(products) {
