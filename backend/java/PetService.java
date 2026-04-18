@@ -80,6 +80,19 @@ public class PetService {
     }
 
     /**
+     * Фильтр питомцев по нескольким видам
+     */
+    public List<Pet> filterBySpecies(List<String> speciesList) {
+        List<Pet> results = new ArrayList<>();
+        for (Pet pet : pets) {
+            if (speciesList.contains(pet.getSpecies())) {
+                results.add(pet);
+            }
+        }
+        return results;
+    }
+
+    /**
      * Filter pets by price range
      */
     public List<Pet> filterByPriceRange(double minPrice, double maxPrice) {
