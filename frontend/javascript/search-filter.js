@@ -10,7 +10,7 @@ class SearchFilter {
             species: [],
             age: 'all'
         };
-        this.sortBy = 'newest';
+        this.sortBy = 'price_low';
     }
 
     applyFilters(products) {
@@ -85,7 +85,7 @@ class SearchFilter {
             species: [],
             age: 'all'
         };
-        this.sortBy = 'name';
+        this.sortBy = 'price_low';
     }
 }
 
