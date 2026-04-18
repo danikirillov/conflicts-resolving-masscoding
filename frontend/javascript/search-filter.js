@@ -10,41 +10,41 @@ class SearchFilter {
             species: [],
             age: 'all'
         };
-        this.sortBy = 'price_low';
+        this.sortBy = 'newest';
     }
 
     applyFilters(products) {
         let filtered = [...products];
-        
+
         // Filter by category
         if (this.filters.category !== 'all') {
             filtered = filtered.filter(p => p.category === this.filters.category);
         }
-        
+
         // Filter by price range
-        filtered = filtered.filter(p => 
-            p.price >= this.filters.minPrice && 
+        filtered = filtered.filter(p =>
+            p.price >= this.filters.minPrice &&
             p.price <= this.filters.maxPrice
         );
-        
+
         // Filter by species
         if (this.filters.species.length > 0) {
-            filtered = filtered.filter(p => 
+            filtered = filtered.filter(p =>
                 this.filters.species.includes(p.species)
             );
         }
-        
+
         // Filter by age
         if (this.filters.age !== 'all') {
             filtered = filtered.filter(p => this.matchesAgeFilter(p));
         }
-        
+
         return this.sortProducts(filtered);
     }
 
     sortProducts(products) {
         const sorted = [...products];
-        
+
         switch(this.sortBy) {
             case 'name':
                 return sorted.sort((a, b) => a.name.localeCompare(b.name));
@@ -85,7 +85,7 @@ class SearchFilter {
             species: [],
             age: 'all'
         };
-        this.sortBy = 'price_low';
+        this.sortBy = 'name';
     }
 }
 
