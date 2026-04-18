@@ -80,6 +80,19 @@ public class PetService {
     }
 
     /**
+     * Фильтр питомцев по возрастному диапазону
+     */
+    public List<Pet> filterByAgeRange(int minAge, int maxAge) {
+        List<Pet> results = new ArrayList<>();
+        for (Pet pet : pets) {
+            if (pet.getAge() >= minAge && pet.getAge() <= maxAge) {
+                results.add(pet);
+            }
+        }
+        return results;
+    }
+
+    /**
      * Фильтр питомцев по нескольким видам
      */
     public List<Pet> filterBySpecies(List<String> speciesList) {
