@@ -6,7 +6,7 @@ require_once 'database.php';
 
 class Auth {
     private $db;
-    private $sessionTimeout = 3600;
+    private $sessionTimeout = 1800;
 
     public function __construct() {
         $this->db = new Database();
