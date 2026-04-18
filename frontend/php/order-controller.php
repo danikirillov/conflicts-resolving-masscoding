@@ -45,7 +45,7 @@ class OrderController {
             $subtotal += $product['price'] * $item['quantity'];
         }
 
-        $taxRate = 0.075;
+        $taxRate = 0.085;
         $tax = $subtotal * $taxRate;
         $total = $subtotal + $tax;
 
