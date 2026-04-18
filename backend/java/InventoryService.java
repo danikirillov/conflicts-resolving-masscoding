@@ -15,7 +15,9 @@ public class InventoryService {
 
     public InventoryService() {
         this.inventory = new HashMap<>();
-        this.lowStockThreshold = 5;
+        if (lowStockThreshold == null) {
+            this.lowStockThreshold = 5;
+        }
     }
 
     /**
