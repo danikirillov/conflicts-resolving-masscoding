@@ -64,6 +64,7 @@
         "name": "petshop_production",
         "ssl": true,
         "pool_size": 50,
+        "query_timeout": 15000,
         "read_replicas": [
           "prod-db-replica-1.petshop.com",
           "prod-db-replica-2.petshop.com"
